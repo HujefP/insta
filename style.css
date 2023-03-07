@@ -66,6 +66,7 @@ body {
     color: antiquewhite;
     overflow-x: hidden;
     flex-wrap: nowrap;
+    padding-top: 5px;
 }
 
 .story img {
@@ -191,14 +192,14 @@ p:hover{
 .child2:hover{
     float: left;
 }
-.post img:hover{
-    /* transform: scale(0.8); */
+/*.post img:hover{
+     transform: scale(0.8); */
     /* padding: 5px; */
     /* border-radius: 12px; */
     /* animation-name: blink;
     animation-duration: 2s;
-    animation-iteration-count: infinite;  */
-}
+    animation-iteration-count: infinite;  
+}*/
 /*@keyframes blink{
    0%{
     /* transform: rotate(3deg); 
@@ -225,3 +226,6 @@ p:hover{
     background-color: chartreuse;
    }
 }*/
+.container{
+    flex-wrap: wrap;
+}
